@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/view_common_margin"
+    android:paddingRight="@dimen/view_common_margin">
+
+    <com.ccb.test.anny.imagetest.view.ZoomImageView
+        android:id="@+id/slieceImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginTop="@dimen/view_common_margin"
+        android:layout_marginBottom="@dimen/view_common_margin"
+        />
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/slice_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/factor_name_label"
+            android:textSize="@dimen/text_common_size"/>
+
+        <TextView
+            android:id="@+id/slice_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/slice_name_label"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_common_size"
+            android:text="test"/>
+
+        <EditText
+            android:id="@+id/slice_value_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:layout_below="@id/slice_name_label"
+            android:layout_alignLeft="@id/slice_name_label"/>
+
+        <Button
+            android:id="@+id/slice_commit_button"
+            android:layout_below="@id/slice_value_editText"
+            android:layout_alignLeft="@id/slice_name_label"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

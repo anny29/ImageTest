@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ImageTest</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- 要素录入fragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="factor_name_label">要素名称：</string>
+    <string name="factor_commit_button">提交</string>
+    <string name="factor_request_button">获取</string>
+
+    <!-- 底部导航 -->
+    <string name="bottom_notice">公告</string>
+    <string name="bottom_factor">要素录入</string>
+    <string name="bottom_person_info">个人信息</string>
+
+</resources>
